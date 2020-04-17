@@ -94,6 +94,10 @@ endif
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
@@ -124,7 +128,6 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     LockClock \
-    Trebuchet \
     Updater \
     WallpaperPicker \
     WeatherProvider
