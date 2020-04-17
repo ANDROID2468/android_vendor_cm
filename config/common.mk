@@ -97,6 +97,14 @@ PRODUCT_PACKAGES += \
 # Lawnchair
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
+    
+# XDA Labs
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/XdaLabs/XdaLabs.apk:system/app/XdaLabs/XdaLabs.apk
+  
+# MiXplorer
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/MiXplorer/MiXplorer.apk:system/app/MiXplorer/MiXplorer.apk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
