@@ -98,10 +98,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
   
-# MiXplorer
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/MiXplorer/MiXplorer.apk:system/app/MiXplorer/MiXplorer.apk
-
 # Required CM packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
